@@ -1,0 +1,33 @@
+{
+  "name": "mensajegmail",
+  "version": "1.0.0",
+  "description": "API REST que conecta con angular para el envio de mensages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanPabloEA/mensajeGmail.git"
+  },
+  "author": "Juan Pablo Espinoza Alvial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanPabloEA/mensajeGmail/issues"
+  },
+  "homepage": "https://github.com/juanPabloEA/mensajeGmail#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "jade": "^1.11.0",
+    "jquery": "^3.3.1",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.17.3",
+    "popper.js": "^1.14.3"
+  }
+}
